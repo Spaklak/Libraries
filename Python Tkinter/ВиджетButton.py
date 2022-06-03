@@ -34,8 +34,8 @@ def first_avin():
     command=Main_avin,
     background='cyan',
     fg='green',
-    width=50,
-    height=50
+    width=500,
+    height=600
     )
     button.pack()
     win3.mainloop()

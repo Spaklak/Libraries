@@ -5,7 +5,7 @@ import tkinter as tk
 import webbrowser
 def say_hello():
     win2 = tk.Tk()
-    win2.geometry=('500x600+1100+500')
+    win2.geometry('500x600+1100+500')
     win2.title('salam')
     win2.minsize(300, 400)
     label = tk.Label(win2, text='Salam,brat',
@@ -27,7 +27,7 @@ def Main_avin():
 
 def first_avin():
     win3 = tk.Tk()
-    win3.geometry=('500x600+1100+500')
+    win3.geometry('500x600+1100+500')
     win3.title('Смерть')
     win3.minsize(300, 400)
     button = tk.Button(win3, text='Удачи',
